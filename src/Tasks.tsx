@@ -101,6 +101,7 @@ export default class Tasks extends Component<any, any> {
                                     <TextField
                                         label="Description"
                                         value={task.description}
+                                        multiline
                                         onChange={(event: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>, newValue?: string) => {
                                             let tempTask: ITask = { ...task };
                                             tempTask.description = !newValue ? "" : newValue;
