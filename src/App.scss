@@ -1,0 +1,22 @@
+@import './../node_modules/office-ui-fabric-react/dist/sass/_References.scss';
+// @import './../node_modules/office-ui-fabric-core/dist/css/fabric.min.css';
+@import './../node_modules/office-ui-fabric-react/dist/sass/Fabric.scss';
+
+
+.row {
+  @include ms-Grid-row;
+  @include ms-fontColor-black;
+  // background-color: $ms-color-themeDark;
+  // padding: 20px;
+}
+
+.column {
+  @include ms-Grid-col;
+  @include ms-lg6;
+  @include ms-xl6;
+}
+
+.App {
+  // text-align: center;
+  // background: #61dafb;
+}
